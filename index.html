@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body><h1>Hello World</h1>
+    <p>Test for Firebase</p>
+    <script>
+        // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyAvLpkZ9PBHdxJNfw_RS0c_a9cNbtbyu-c",
+  authDomain: "ddg-chineseimmersion.firebaseapp.com",
+  projectId: "ddg-chineseimmersion",
+  storageBucket: "ddg-chineseimmersion.appspot.com",
+  messagingSenderId: "805274824057",
+  appId: "1:805274824057:web:c80cbfe9e8be105a8593a8",
+  measurementId: "G-PKDCBTCK73"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+    </script>
+</body>
+</html>
